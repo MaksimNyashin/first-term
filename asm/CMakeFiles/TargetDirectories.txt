@@ -1,0 +1,6 @@
+/home/maks/Work/CPP/first-term/asm/CMakeFiles/rebuild_cache.dir
+/home/maks/Work/CPP/first-term/asm/CMakeFiles/edit_cache.dir
+/home/maks/Work/CPP/first-term/asm/CMakeFiles/mul.dir
+/home/maks/Work/CPP/first-term/asm/CMakeFiles/sub.dir
+/home/maks/Work/CPP/first-term/asm/CMakeFiles/hello.dir
+/home/maks/Work/CPP/first-term/asm/CMakeFiles/add.dir

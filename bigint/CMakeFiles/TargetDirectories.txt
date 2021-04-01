@@ -1,0 +1,3 @@
+/home/maks/Work/CPP/first-term/bigint/CMakeFiles/rebuild_cache.dir
+/home/maks/Work/CPP/first-term/bigint/CMakeFiles/big_integer_testing.dir
+/home/maks/Work/CPP/first-term/bigint/CMakeFiles/edit_cache.dir

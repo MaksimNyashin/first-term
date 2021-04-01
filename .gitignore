@@ -2,3 +2,10 @@
 build/
 cmake-build-*
 asm/tests/*.txt
+mytests/
+mytest/
+mytest.cpp
+mytests.cpp
+comp.sh
+run.sh
+bigint/new_out.txt

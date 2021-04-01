@@ -4,12 +4,21 @@
 #include <cstddef>
 #include <gmp.h>
 #include <iosfwd>
+#include <vector>
+#include <cstdint>
+
+#include "my_vector.h"
 
 struct big_integer
 {
+    // std::vector<unsigned int> num;
+    my_vector num;
+    bool sign;
+
     big_integer();
     big_integer(big_integer const& other);
     big_integer(int a);
+    big_integer(unsigned int a);
     explicit big_integer(std::string const& str);
     ~big_integer();
 
@@ -46,9 +55,7 @@ struct big_integer
     friend bool operator>=(big_integer const& a, big_integer const& b);
 
     friend std::string to_string(big_integer const& a);
-
-private:
-    mpz_t mpz;
+    void remFrontZero();
 };
 
 big_integer operator+(big_integer a, big_integer const& b);

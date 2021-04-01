@@ -1,0 +1,1 @@
+ld CMakeFiles/hello.dir/hello.asm.o -o hello
